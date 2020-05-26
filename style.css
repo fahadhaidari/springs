@@ -1,0 +1,7 @@
+html, body { background: #111; }
+
+canvas { display: block;
+  margin: 0 auto;
+  background: #000;
+  border: solid 2px #AAA;
+}
