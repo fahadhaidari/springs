@@ -2,9 +2,9 @@ window.onload = function() {
   const canvas = document.createElement("canvas");
   const context = canvas.getContext("2d");
 
-  const numParticles = 1000;
+  const numParticles = 600;
   const gravity = 0;
-  const K = 0.02;
+  const K = 0.03;
   const maxSize = 20;
   const particles = [];
   const colors = ["orange", "white", "green", "cyan", "#FF4422", "#4488FF"];
